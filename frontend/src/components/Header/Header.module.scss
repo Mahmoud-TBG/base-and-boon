@@ -1,0 +1,71 @@
+@import "../../../styles//partials/main";
+
+.container {
+    position: fixed;
+    width: 100%;
+    padding: 0 vw(3);
+    margin-top: vw(42);
+    color: var(--white);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: vw(43);
+    padding-inline-end: vw(64);
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: vw(47);
+    min-width: 40%;
+    font-family: var(--font-din-condensed-regular);
+    font-size: vw(14);
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: vw(2);
+    text-transform: uppercase;
+}
+
+
+.logo {
+    position: relative;
+    width: vw(91);
+    height: vw(61);
+    margin: 0 auto;
+
+    img {
+        object-fit: contain;
+    }
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: vw(20);
+    min-width: 40%;
+}
+
+
+.headerButton {
+    display: inline-flex;
+    align-items: center;
+    gap: vw(10);
+    padding: vw(24) vw(41) vw(21) vw(40);
+    background-color: var(--violet);
+    font-size: vw(14);
+    font-family: var(--font-alfont-regular);
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0.18em;
+}

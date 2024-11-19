@@ -1,0 +1,73 @@
+@import "../../../styles//partials/main";
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    margin-bottom: vw(124);
+}
+
+.firstTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: vw(14);
+    width: 100%;
+    margin-bottom: vw(83);
+}
+
+.firstTitleText {
+    font-family: var(--font-din-condensed-regular);
+    font-size: vw(16ٍ);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: vw(2);
+    text-transform: uppercase;
+}
+
+.firstTitleLine {
+    width: vw(42);
+    height: vw(1);
+    background-color: var(--black);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: vw(14);
+    margin-bottom: vw(43);
+}
+
+.text {
+    font-family: var(--font-din-condensed-bold);
+    font-size: vw(80);
+    font-style: normal;
+    font-weight: 700;
+    line-height: vw(98);
+    letter-spacing: vw(14.4);
+    text-transform: uppercase;
+}
+
+
+
+.lastTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: vw(22);
+    width: 100%;
+}
+
+.lastTitleText {
+    font-family: var(--font-din-condensed-regular);
+    font-size: vw(16);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: vw(2);
+    text-transform: uppercase;
+}
