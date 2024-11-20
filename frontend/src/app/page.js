@@ -1,3 +1,4 @@
+import About from "@/components/About/About";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import PolishedPerfection from "@/components/PolishedPerfection/PolishedPerfection";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <PolishedPerfection />
       <Summary />
+      <About />
     </div>
   );
 }
