@@ -1,10 +1,10 @@
 @import "../../../styles//partials/main";
 
-.container {
-    position: fixed;
+.section {
+    // position: fixed;
+    position: absolute;
     width: 100%;
-    padding: 0 vw(3);
-    margin-top: vw(42);
+    // padding: vw(64);
     color: var(--white);
     top: 0;
     left: 0;
@@ -12,16 +12,17 @@
 }
 
 
-.section {
+.sectionContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline-start: vw(43);
-    padding-inline-end: vw(64);
+    padding-inline: vw(64);
+    padding-block: vw(35);
+    // padding-inline-end: vw(40);
 }
 
 
-.left {
+.headerMenu {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -29,14 +30,14 @@
     min-width: 40%;
     font-family: var(--font-din-condensed-regular);
     font-size: vw(14);
-    font-weight: 500;
+    // font-weight: 500;
     line-height: normal;
-    letter-spacing: vw(2);
+    letter-spacing: vw(1.8);
     text-transform: uppercase;
 }
 
 
-.logo {
+.sectionLogo {
     position: relative;
     width: vw(91);
     height: vw(61);
@@ -48,16 +49,17 @@
 }
 
 
-.right {
+.headerButton {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: vw(20);
-    min-width: 40%;
+    min-width: 45%;
+    // min-width: 40%;
 }
 
 
-.headerButton {
+.cta {
     display: inline-flex;
     align-items: center;
     gap: vw(10);
@@ -66,6 +68,6 @@
     font-size: vw(14);
     font-family: var(--font-alfont-regular);
     text-transform: uppercase;
-    line-height: 1;
-    letter-spacing: 0.18em;
+    // line-height: 1;
+    letter-spacing: 0.11em;
 }

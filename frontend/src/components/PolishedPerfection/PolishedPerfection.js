@@ -10,7 +10,7 @@ const PolishedPerfection = () => {
             </div>
 
             <div className={styles.content} >
-                <p className={styles.text} >Enhancing Beauty</p>
+                <h2 className={styles.text} >Enhancing Beauty</h2>
                 <div className={styles.image}>
                     <img src="/assets/media/site/1.png" loading="lazy" alt="logo" />
                 </div>
@@ -20,19 +20,19 @@ const PolishedPerfection = () => {
                 <div className={styles.image}>
                     <img src="/assets/media/site/2.png" loading="lazy" alt="logo" />
                 </div>
-                <p className={styles.text} >SKill, and creativity,</p>
+                <h2 className={styles.text} >through expertise,</h2>
             </div>
 
             <div className={styles.content} >
                 <div className={styles.image}>
                     <img src="/assets/media/site/3.png" loading="lazy" alt="logo" />
                 </div>
-                <p className={styles.text} >Enhancing Beauty</p>
+                <h2 className={styles.text} >SKill, and creativity,</h2>
             </div>
 
-            <div className={styles.lastTitle} >
+            <div className={styles.cta} >
 
-                <p className={styles.lastTitleText} >Polished Perfection</p>
+                <button className={styles.lastTitleText} >Learn more about us</button>
 
                 <svg width="68" height="16" viewBox="0 0 68 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M59 15L66 8L59 1" stroke="black" strokeWidth="2" />

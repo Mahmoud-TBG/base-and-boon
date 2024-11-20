@@ -3,22 +3,22 @@ import styles from './Header.module.scss'
 import logo from '../../../public/assets/media/site/Logo.svg'
 const Header = () => {
     return (
-        <header className={styles.container}>
-            <section className={styles.section} >
+        <header className={styles.section}>
+            <section className={styles.sectionContainer} >
 
-                <ul className={styles.left}>
+                <ul className={styles.headerMenu}>
                     <li>Beauty services</li>
                     <li>b&b studio</li>
                     <li>tool sharpening</li>
                     <li>about</li>
                 </ul>
 
-                <div className={styles.logo}>
+                <div className={styles.sectionLogo}>
                     <Image src={logo} alt="logo" fill />
                 </div>
-                <div className={styles.right} >
+                <div className={styles.headerButton} >
 
-                    <button className={styles.headerButton} >book a care now</button>
+                    <button className={styles.cta} >book a care now</button>
                 </div>
 
             </section>

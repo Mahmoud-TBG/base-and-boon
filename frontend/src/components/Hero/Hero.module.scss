@@ -1,11 +1,15 @@
 @import "../../../styles//partials/main";
 
-.container {
+.section {
     height: 100vh;
     margin-bottom: vw(80);
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .sectionMedia {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -32,11 +36,11 @@
     }
 }
 
-.caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
     text-align: center;
     color: var(--white);
     z-index: 1000;

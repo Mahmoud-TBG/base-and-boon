@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Hero = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.section}>
             {/* <h1 className={styles.title}>Welcome to Next.js</h1> */}
             {/* <Image src={bsImage} alt="logo" /> */}
             <div className={styles.sectionMedia} >
@@ -14,7 +14,7 @@ const Hero = () => {
 
                 </video>
             </div>
-            <p className={styles.caption}>the experience of beauty</p>
+            <h1 className={styles.title}>the experience of beauty</h1>
             <div className={styles.arrow}>
                 <svg width="16" height="68" viewBox="0 0 16 68" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 59L8 66L15 59" stroke="white" strokeWidth="2" />
