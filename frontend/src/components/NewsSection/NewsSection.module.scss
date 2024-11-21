@@ -1,0 +1,135 @@
+@import "../../../styles//partials/main";
+
+.section {
+    margin-top: vw(550);
+    padding-inline: vw(63);
+    margin-bottom: vw(151);
+}
+
+.sectionContainer {}
+
+.label {
+    display: flex;
+    align-items: center;
+    gap: vw(14);
+    text-align: right;
+    width: 100%;
+    margin-bottom: vw(74);
+    // padding-left: vw(50);
+}
+
+.labelText {
+    // margin-inline-start: vw(120);
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    font-family: var(--font-din-condensed-bold);
+
+}
+
+.labelLine {
+    width: 30px;
+    height: 1px;
+    background-color: black;
+}
+
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: vw(30);
+    margin-top: vw(50);
+    margin-bottom: vw(110);
+
+}
+
+.headerTitle {
+    font-size: vw(50);
+    font-family: var(--font-din-condensed-bold);
+    letter-spacing: vw(9);
+    text-transform: uppercase;
+}
+
+.headerCTA {
+    display: flex;
+    // flex-direction: row;
+    // align-items: center;
+    // justify-content: center;
+    gap: vw(22);
+    // width: 100%;
+    // margin-top: vw(60);
+    // margin-right: 70px;
+    // margin-inline-start: vw(120);
+
+}
+
+.ctaText {
+    font-family: var(--font-din-condensed-bold);
+    font-size: vw(16);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: vw(2);
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: vw(32);
+    // padding-inline-start: vw(63);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    // width: 100%;
+    width: vw(447);
+    border-right: 2px solid #EFEFEF;
+
+    svg {
+        align-self: flex-end;
+    }
+}
+
+.cardImage {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: vw(32)
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+}
+
+.cardDate {
+    margin-top: vw(36);
+    margin-bottom: vw(29);
+    font-family: var(--font-din-condensed-bold);
+    font-size: vw(13);
+    letter-spacing: vw(2.34);
+    text-transform: uppercase;
+}
+
+.title {
+    padding-inline-end: vw(30);
+    margin-bottom: vw(27);
+    font-size: vw(27);
+    font-family: var(--font-din-condensed-regular);
+    letter-spacing: vw(4.86);
+    text-transform: uppercase;
+}
+
+.description {
+    text-align: left;
+    padding-inline-end: vw(30);
+    font-size: vw(13);
+    font-family: var(--font-din-condensed-regular);
+    line-height: vw(19.5);
+    margin-bottom: vw(36);
+}
