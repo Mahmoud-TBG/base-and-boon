@@ -1,0 +1,174 @@
+@import "../../../styles//partials/main";
+
+.section {
+    padding-inline: vw(63);
+    background-color: black;
+    min-height: vw(843);
+}
+
+.sectionContainer {
+    padding-top: vw(120);
+
+}
+
+.topFooter {
+    display: flex;
+    gap: vw(189);
+    padding-bottom: vw(130);
+    color: white;
+}
+
+
+.left {
+    display: flex;
+}
+
+.branchName {
+    color: white;
+    font-size: vw(50);
+    font-family: var(--font-din-condensed-bold);
+    letter-spacing: vw(9);
+    line-height: vw(55);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-inline-end: vw(100);
+
+
+}
+
+.branchLocations {
+    display: flex;
+    gap: vw(63);
+}
+
+.firstLocation {
+
+    .locationName {
+        margin-bottom: vw(9);
+        color: var(--pink);
+        font-family: var(--font-din-condensed-bold);
+
+        font-size: vw(16);
+        letter-spacing: vw(2.88);
+        text-transform: uppercase;
+
+        span {
+            color: white;
+            font-size: vw(12);
+            letter-spacing: vw(2.16);
+        }
+    }
+
+    .locationAddress {
+        font-family: var(--font-din-condensed-regular);
+        font-size: vw(16);
+        letter-spacing: vw(1);
+        line-height: vw(19.5);
+    }
+
+}
+
+
+
+.secondLocation {
+
+    .locationName {
+        margin-bottom: vw(9);
+        color: var(--pink);
+        font-family: var(--font-din-condensed-bold);
+        font-size: vw(16);
+        letter-spacing: vw(2.88);
+        text-transform: uppercase;
+    }
+
+    .locationAddress {
+        font-family: var(--font-din-condensed-regular);
+        font-size: vw(16);
+        letter-spacing: vw(1);
+        line-height: vw(19.5);
+    }
+
+
+}
+
+.openingTimes {
+    margin-top: vw(34);
+
+    .openingTimeLabel {
+        color: var(--pink);
+        font-family: var(--font-din-condensed-bold);
+        font-size: vw(16);
+        letter-spacing: vw(2.88);
+        margin-bottom: vw(9);
+    }
+
+    .openingTime {
+        font-family: var(--font-din-condensed-regular);
+        font-size: vw(16);
+    }
+}
+
+.right {
+    display: flex;
+    margin-top: vw(63);
+
+    .branchName {
+        padding-inline-end: vw(121);
+    }
+
+}
+
+.contact {
+    .contactTitle {
+        margin-bottom: vw(47);
+        font-family: var(--font-din-condensed-bold);
+        font-size: vw(40);
+        letter-spacing: vw(7.2);
+        line-height: vw(54);
+        text-transform: uppercase;
+
+    }
+
+    .footerInfo {
+        display: flex;
+        flex-direction: column;
+        color: var(--pink);
+        font-family: var(--font-din-condensed-bold);
+        font-size: vw(18);
+        letter-spacing: vw(3.24);
+        line-height: vw(21.6);
+
+    }
+
+    .footerMedia {
+        display: flex;
+        gap: vw(40);
+        margin-top: vw(18);
+        margin-bottom: vw(63);
+    }
+
+    .footerMenu {
+        display: flex;
+        gap: vw(63);
+
+        .footerMenuList {
+            display: flex;
+            flex-direction: column;
+            gap: vw(18);
+            text-transform: uppercase;
+            font-family: var(--font-din-condensed-bold);
+            letter-spacing: vw(2.34);
+            color: #666;
+        }
+
+    }
+
+}
+
+.bottomFooter {
+    color: white;
+    text-align: center;
+    font-family: var(--font-din-condensed-bold);
+    font-size: vw(235);
+    letter-spacing: vw(42.3);
+}
